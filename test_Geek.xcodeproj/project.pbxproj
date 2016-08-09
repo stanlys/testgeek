@@ -22,6 +22,8 @@
 		F626A0141D5911CE00561B2C /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = F626A00D1D5911CE00561B2C /* 5.png */; };
 		F626A0151D5911CE00561B2C /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = F626A00E1D5911CE00561B2C /* 6.png */; };
 		F626A0161D5911CE00561B2C /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = F626A00F1D5911CE00561B2C /* map.png */; };
+		F6CF07AF1D5A6B8E00F79138 /* logo1.png in Resources */ = {isa = PBXBuildFile; fileRef = F6CF07AD1D5A6B8E00F79138 /* logo1.png */; };
+		F6CF07B01D5A6B8E00F79138 /* logo2.png in Resources */ = {isa = PBXBuildFile; fileRef = F6CF07AE1D5A6B8E00F79138 /* logo2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,8 @@
 		F626A00D1D5911CE00561B2C /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 5.png; path = "../../../../../../../../Downloads/y sorokonojki 20 picek/5.png"; sourceTree = "<group>"; };
 		F626A00E1D5911CE00561B2C /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 6.png; path = "../../../../../../../../Downloads/y sorokonojki 20 picek/6.png"; sourceTree = "<group>"; };
 		F626A00F1D5911CE00561B2C /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = map.png; path = "../../../../../../../../Downloads/y sorokonojki 20 picek/map.png"; sourceTree = "<group>"; };
+		F6CF07AD1D5A6B8E00F79138 /* logo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo1.png; sourceTree = "<group>"; };
+		F6CF07AE1D5A6B8E00F79138 /* logo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +130,8 @@
 				F626A00C1D5911CE00561B2C /* 4.png */,
 				F626A00D1D5911CE00561B2C /* 5.png */,
 				F626A00E1D5911CE00561B2C /* 6.png */,
+				F6CF07AD1D5A6B8E00F79138 /* logo1.png */,
+				F6CF07AE1D5A6B8E00F79138 /* logo2.png */,
 				F626A00F1D5911CE00561B2C /* map.png */,
 			);
 			path = test_Geek;
@@ -260,8 +266,10 @@
 				F626A0161D5911CE00561B2C /* map.png in Resources */,
 				F626A0111D5911CE00561B2C /* 2.png in Resources */,
 				F626A0121D5911CE00561B2C /* 3.png in Resources */,
+				F6CF07B01D5A6B8E00F79138 /* logo2.png in Resources */,
 				F626A0141D5911CE00561B2C /* 5.png in Resources */,
 				F6269FE11D58EA7B00561B2C /* Assets.xcassets in Resources */,
+				F6CF07AF1D5A6B8E00F79138 /* logo1.png in Resources */,
 				F6269FDF1D58EA7B00561B2C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -514,6 +522,7 @@
 				F626A0001D58EA7C00561B2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F626A0011D58EA7C00561B2C /* Build configuration list for PBXNativeTarget "test_GeekTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +531,7 @@
 				F626A0031D58EA7C00561B2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F626A0041D58EA7C00561B2C /* Build configuration list for PBXNativeTarget "test_GeekUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +540,7 @@
 				F626A0061D58EA7C00561B2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
