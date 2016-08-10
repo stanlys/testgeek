@@ -58,13 +58,12 @@
                                 <rect key="frame" x="20" y="458" width="63" height="30"/>
                                 <animations/>
                                 <state key="normal" title="Ходим"/>
+                                <connections>
+                                    <action selector="go:" destination="cAZ-1h-7gD" eventType="touchUpInside" id="BRx-Rq-1wN"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="map.png" translatesAutoresizingMaskIntoConstraints="NO" id="DhD-QX-4Ww">
                                 <rect key="frame" x="0.0" y="40" width="320" height="320"/>
-                                <animations/>
-                            </imageView>
-                            <imageView autoresizesSubviews="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1.png" translatesAutoresizingMaskIntoConstraints="NO" id="VON-Dl-oqg">
-                                <rect key="frame" x="130" y="443" width="60" height="60"/>
                                 <animations/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Игрок 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Iv-Tr-NaI">
@@ -90,10 +89,17 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView autoresizesSubviews="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1.png" translatesAutoresizingMaskIntoConstraints="NO" id="VON-Dl-oqg">
+                                <rect key="frame" x="130" y="443" width="60" height="60"/>
+                                <animations/>
+                            </imageView>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="cube_img" destination="VON-Dl-oqg" id="bGx-hF-Iud"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="q1c-xS-jzf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
